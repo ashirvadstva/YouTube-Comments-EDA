@@ -40,7 +40,6 @@ def remove_punctuation(text):
         return text.translate(str.maketrans('', '', PUNCT_TO_REMOVE))
     else:
         return text  # Return the input unchanged if it is not a string
-
     
 # Apply the function to remove punctuation    
 df_comments["comment_text"] = df_comments["comment_text"].apply(remove_punctuation)
@@ -55,8 +54,7 @@ def remove_digits(text):
         return text.translate(str.maketrans('', '', digits))
     else:
         return str(text)  # Convert non-string input (like NaN) to string and return
-
-    
+ 
 # Apply the 'remove_digits' function to each element in the 'comment_text' column of the df_comments DataFrame
 df_comments["comment_text"] = df_comments["comment_text"].apply(remove_digits)
 df_comments.head()
@@ -117,7 +115,6 @@ def get_sentiment(text):
         return analysis.sentiment.polarity
     else:
         return 0.0  # Return 0.0 for non-string inputs
-
 
 # Apply the function to get the polarity of each comment
 df_comments['polarity'] = df_comments['comment_text'].apply(get_sentiment)
@@ -185,15 +182,12 @@ plt.xlabel('Comment_type')
 plt.ylabel('Number')
 plt.show()
 
-
 # Plotting the top 10 videos with the most positive comments
 # Ensure the plot size is set before creating the plot
 plt.figure(figsize=(10, 6))
 sns.barplot(data=unique.sort_values(by='pos_comm', ascending=False).head(10), x='id', y='pos_comm', palette='viridis')
-
 # Rotate x-ticks for better readability
 plt.xticks(rotation=45)
-
 # Adding titles and labels
 plt.title('Top 10 Videos with the Most Positive Comments')
 plt.xlabel('Video ID')
@@ -201,30 +195,23 @@ plt.ylabel('Number of Positive Comments')
 # Display the plot
 plt.show()
 
-
 # Plotting the top 10 videos with the most negative comments
 plt.figure(figsize=(10, 6))
 sns.barplot(data=unique.sort_values(by='neg_comm', ascending=False).head(10), x='id', y='neg_comm', palette='rocket')
-
 plt.xticks(rotation=45)
-
 plt.title('Top 10 Videos with the Most Negative Comments')
 plt.xlabel('Video ID')
 plt.ylabel('Number of Negative Comments')
 plt.show()
 
-
 # Plotting the top 10 videos with the most total comments
 plt.figure(figsize=(10, 6))
 sns.barplot(data=unique.sort_values(by='total_comments', ascending=False).head(10), x='id', y='total_comments', palette='summer_r')
-
 plt.xticks(rotation=45)
-
 plt.title('Top 10 Videos with the Most Total Comments')
 plt.xlabel('Video ID')
 plt.ylabel('Number of Total Comments')
 plt.show()
-
 
 # Define a dictionary to map category IDs to category names
 cat_id_mapping = {
