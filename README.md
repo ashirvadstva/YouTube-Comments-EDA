@@ -29,7 +29,7 @@ This project performs detailed Exploratory Data Analysis (EDA) on YouTube commen
 
 ## 🚀 Getting Started
 
-1. **Clone the Repository**: Clone this repository to your local machine using `git clone <repository-url>`.
+1. **Clone the Repository**: Clone this repository to your local machine using `git clone <https://github.com/ashirvadstva/YouTube-Comments-EDA>`.
 2. **Install Dependencies**: Install the required Python libraries using the following command:
    ```bash
    pip install pandas numpy seaborn matplotlib textblob
