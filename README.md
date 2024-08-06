@@ -1,5 +1,17 @@
 # 📊 YouTube Comments Exploratory Data Analysis (EDA)
 
+## 📋 Table of Contents
+- [Description](#description)
+- [Key Features](#key-features)
+- [Target Audience](#target-audience)
+- [Requirements](#requirements)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Visualizations](#visualizations)
+- [Considerations](#considerations)
+- [Limitations](#limitations)
+- [Contributing](#contributing)
+  
 ## 📝 Description
 
 This project performs detailed Exploratory Data Analysis (EDA) on YouTube comments. The analysis involves loading datasets, cleaning and preprocessing the data, and extracting meaningful insights from YouTube video comments. The script focuses on text processing techniques such as converting text to lowercase, removing punctuation and digits, and performing sentiment analysis using the TextBlob library.
@@ -41,7 +53,16 @@ This project performs detailed Exploratory Data Analysis (EDA) on YouTube commen
 
 - Place your datasets (GBvideos.csv and GBcomments.csv) in the same directory as the script.
 - The script will output various data visualizations and text analysis results to the console.
-  
+
+## 🔍 Visualizations
+Here are some of the key visualizations generated from the EDA:
+
+- **Comment Sentiment Distribution**: A histogram showing the distribution of sentiment scores.
+- **Top Words in Comments**: A word cloud displaying the most frequent words used in comments.
+- **Sentiment by Video**: A bar chart comparing average sentiment scores across different videos.
+
+*Screenshots or links to visualizations can be added here.*  
+
 ## ⚠️ Considerations
 
 - Ensure datasets are formatted correctly as expected by the script.
