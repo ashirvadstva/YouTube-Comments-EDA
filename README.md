@@ -12,7 +12,7 @@ This project aims to analyze YouTube comments to understand viewer sentiments an
 
 ## 🔍 Key Findings
 
-Below are some of the significant visualizations generated from the EDA:
+**Below are some of the significant visualizations generated from the EDA:**
 
 <div style="display: flex; justify-content: space-between;">
   <img src="https://github.com/user-attachments/assets/c2201879-02ba-44c2-aae2-b7083e76d60f" alt="Top 10 Videos by View Count" width="32%" />
