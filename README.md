@@ -1,68 +1,71 @@
 # 📊 YouTube Comments Exploratory Data Analysis (EDA)
-Welcome to the repository for the project **"YouTube Comments Exploratory Data Analysis (EDA)"**. This project performs detailed exploratory data analysis (EDA) on YouTube comments, focusing on text processing techniques and sentiment analysis.
 
-## 📝 Description
+Welcome to the **"YouTube Comments Exploratory Data Analysis (EDA)"** repository. This project delves into detailed EDA on YouTube comments, focusing on text processing techniques and sentiment analysis to extract valuable insights.
 
-The **"YouTube Comments Exploratory Data Analysis (EDA)"** project focuses on extracting meaningful insights from YouTube comments. This involves importing datasets, cleaning and preprocessing the data by handling missing values, converting text to lowercase, and removing punctuation and digits. Sentiment analysis is then performed using the TextBlob library. The main objectives are to understand viewer sentiments and engagement trends, and to apply effective text normalization and sentiment analysis techniques. This project provides valuable insights into viewer feedback and engagement with YouTube videos.
+## 📝 Project Description
 
-## 🔍 Findings
-- Here are some of the key visualizations generated from the EDA:
+This project aims to analyze YouTube comments to understand viewer sentiments and engagement trends. Key tasks include:
+- **Data Importation**: Loading datasets and handling missing values.
+- **Text Preprocessing**: Normalizing text by converting to lowercase and removing punctuation and digits.
+- **Sentiment Analysis**: Utilizing the TextBlob library to determine the sentiment of comments.
+- **Visualization**: Creating visualizations to represent viewer feedback and engagement.
+
+## 🔍 Key Findings
+
+Below are some of the significant visualizations generated from the EDA:
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/user-attachments/assets/fea161cd-d129-4d68-9ff4-2271d4c5c91c" alt="Top 10 Videos by View Count" width="100%" />
-  <img src="https://github.com/user-attachments/assets/a40985af-c658-4838-a86e-962e05f49109" alt="Top 10 Videos with the Most Negative Comments" width="45%" />
-  <img src="https://github.com/user-attachments/assets/a231773b-474b-4758-aac7-bc42a7ed39cd" alt="Top 10 Videos with the Most Positive Comments" width="45%" />
+  <img src="https://github.com/user-attachments/assets/c2201879-02ba-44c2-aae2-b7083e76d60f" alt="Top 10 Videos by View Count" width="33%" />
+  <img src="https://github.com/user-attachments/assets/a40985af-c658-4838-a86e-962e05f49109" alt="Top 10 Videos with the Most Negative Comments" width="33%" />
+  <img src="https://github.com/user-attachments/assets/a231773b-474b-4758-aac7-bc42a7ed39cd" alt="Top 10 Videos with the Most Positive Comments" width="33%" />
 </div>
 
 ## 🌟 Key Features
 
-- **📥 Data Loading**: Load YouTube video and comment datasets from CSV files.
-- **🧹 Data Cleaning**: Handle missing values, convert data types, and preprocess text data by removing punctuation and digits.
-- **📝 Text Analysis**: Perform sentiment analysis on comments using the TextBlob library.
-- **📊 Visualization**: Utilize seaborn and matplotlib to visualize data distributions and relationships.
+- **📥 Data Loading**: Import YouTube video and comment datasets from CSV files.
+- **🧹 Data Cleaning**: Preprocess text data, handle missing values, and remove unnecessary characters.
+- **📝 Text Analysis**: Conduct sentiment analysis using TextBlob.
+- **📊 Visualization**: Leverage seaborn and matplotlib to create insightful data visualizations.
 
 ## 🎯 Target Audience
 
-- **Data Scientists**: Interested in text data analysis and natural language processing.
-- **Machine Learning Enthusiasts**: Looking to preprocess and analyze text data for machine learning models.
-- **YouTube Content Creators**: Gain insights from video comments to enhance engagement.
-- **Researchers**: Conducting research on social media data and user engagement.
-
-## ⚙️ Requirements
-
-- Python 3.6+
-- Pandas
-- NumPy
-- Seaborn
-- Matplotlib
-- TextBlob
+- **Data Scientists**: Interested in text analysis and natural language processing (NLP).
+- **Machine Learning Enthusiasts**: Exploring text data preprocessing for ML models.
+- **YouTube Content Creators**: Seeking insights from viewer comments to improve engagement.
+- **Researchers**: Analyzing social media data and user interaction patterns.
 
 ## 🚀 Getting Started
 
-1. **Clone the Repository**: Clone this repository to your local machine using `git clone <https://github.com/ashirvadstva/YouTube-Comments-EDA>`.
-2. **Install Dependencies**: Install the required Python libraries using the following command:
-   ```bash
+1. **Clone the Repository**:
+   \`\`\`bash
+   git clone <https://github.com/ashirvadstva/YouTube-Comments-EDA>
+   \`\`\`
+2. **Install Dependencies**:
+   \`\`\`bash
    pip install pandas numpy seaborn matplotlib textblob
-3. **Run the Script**: Execute the Python script to load the datasets and perform EDA.
-   ```bash
+   \`\`\`
+3. **Run the Script**:
+   \`\`\`bash
    python Youtube_Comments_EDA.py
-   
+   \`\`\`
+
 ## 🛠️ Usage
 
-- Place your datasets (GBvideos.csv and GBcomments.csv) in the same directory as the script.
-- The script will output various data visualizations and text analysis results to the console.
+- Place datasets (e.g., `GBvideos.csv`, `GBcomments.csv`) in the same directory as the script.
+- Execute the script to generate visualizations and sentiment analysis.
 
 ## ⚠️ Considerations
 
-- Ensure datasets are formatted correctly as expected by the script.
-- The script focuses on English text processing; adjust for other languages accordingly.
-- Large datasets may require significant memory and processing time.
-  
+- Ensure datasets are correctly formatted.
+- The analysis primarily targets English text; other languages may require adjustments.
+- Processing large datasets may demand significant computational resources.
+
 ## 🚧 Limitations
 
-- Detailed EDA and text processing; advanced analysis may require additional techniques.
-- TextBlob sentiment analysis provides a simple, rule-based approach.  
+- This EDA focuses on basic text processing and sentiment analysis. More complex analyses might need advanced techniques.
+- TextBlob provides a rule-based sentiment analysis approach, which may have limitations in nuanced text.
 
 ## 🤝 Contributing
 
-- Contributions are welcome! If you have any suggestions or improvements, please create a pull request or open an issue.
+Contributions are highly appreciated! Feel free to create a pull request or open an issue for any suggestions or improvements.
+
