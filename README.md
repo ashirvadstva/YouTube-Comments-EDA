@@ -1,20 +1,9 @@
 # 📊 YouTube Comments Exploratory Data Analysis (EDA)
+Welcome to the repository for the project **"YouTube Comments Exploratory Data Analysis (EDA)"**. This project performs detailed exploratory data analysis (EDA) on YouTube comments, focusing on text processing techniques and sentiment analysis.
 
-## 📋 Table of Contents
-- [Description](#description)
-- [Key Features](#key-features)
-- [Target Audience](#target-audience)
-- [Requirements](#requirements)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Visualizations](#visualizations)
-- [Considerations](#considerations)
-- [Limitations](#limitations)
-- [Contributing](#contributing)
-  
 ## 📝 Description
 
-This project performs detailed Exploratory Data Analysis (EDA) on YouTube comments. The analysis involves loading datasets, cleaning and preprocessing the data, and extracting meaningful insights from YouTube video comments. The script focuses on text processing techniques such as converting text to lowercase, removing punctuation and digits, and performing sentiment analysis using the TextBlob library.
+The **"YouTube Comments Exploratory Data Analysis (EDA)"** project focuses on extracting meaningful insights from YouTube comments. This involves importing datasets, cleaning and preprocessing the data by handling missing values, converting text to lowercase, and removing punctuation and digits. Sentiment analysis is then performed using the TextBlob library. The main objectives are to understand viewer sentiments and engagement trends, and to apply effective text normalization and sentiment analysis techniques. This project provides valuable insights into viewer feedback and engagement with YouTube videos.
 
 ## 🌟 Key Features
 
