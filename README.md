@@ -5,6 +5,15 @@ Welcome to the repository for the project **"YouTube Comments Exploratory Data A
 
 The **"YouTube Comments Exploratory Data Analysis (EDA)"** project focuses on extracting meaningful insights from YouTube comments. This involves importing datasets, cleaning and preprocessing the data by handling missing values, converting text to lowercase, and removing punctuation and digits. Sentiment analysis is then performed using the TextBlob library. The main objectives are to understand viewer sentiments and engagement trends, and to apply effective text normalization and sentiment analysis techniques. This project provides valuable insights into viewer feedback and engagement with YouTube videos.
 
+## 🔍 Findings
+- Here are some of the key visualizations generated from the EDA:
+
+<div style="display: flex; justify-content: space-between;">
+  <img src="https://github.com/user-attachments/assets/fea161cd-d129-4d68-9ff4-2271d4c5c91c" alt="Top 10 Videos by View Count" width="100%" />
+  <img src="https://github.com/user-attachments/assets/a40985af-c658-4838-a86e-962e05f49109" alt="Top 10 Videos with the Most Negative Comments" width="45%" />
+  <img src="https://github.com/user-attachments/assets/a231773b-474b-4758-aac7-bc42a7ed39cd" alt="Top 10 Videos with the Most Positive Comments" width="45%" />
+</div>
+
 ## 🌟 Key Features
 
 - **📥 Data Loading**: Load YouTube video and comment datasets from CSV files.
@@ -38,19 +47,10 @@ The **"YouTube Comments Exploratory Data Analysis (EDA)"** project focuses on ex
    ```bash
    python Youtube_Comments_EDA.py
    
- ## 🛠️ Usage
+## 🛠️ Usage
 
 - Place your datasets (GBvideos.csv and GBcomments.csv) in the same directory as the script.
 - The script will output various data visualizations and text analysis results to the console.
-
-## 🔍 Visualizations
-Here are some of the key visualizations generated from the EDA:
-
-- **Comment Sentiment Distribution**: A histogram showing the distribution of sentiment scores.
-- **Top Words in Comments**: A word cloud displaying the most frequent words used in comments.
-- **Sentiment by Video**: A bar chart comparing average sentiment scores across different videos.
-
-*Screenshots or links to visualizations can be added here.*  
 
 ## ⚠️ Considerations
 
